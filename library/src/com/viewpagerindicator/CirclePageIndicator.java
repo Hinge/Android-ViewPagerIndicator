@@ -201,7 +201,8 @@ public class CirclePageIndicator extends View implements PageIndicator {
         if (mViewPager == null) {
             return;
         }
-        final int count = mViewPager.getAdapter().getCount();
+        final int count = 5;
+        //final int count = mViewPager.getAdapter().getCount();
         if (count == 0) {
             return;
         }
@@ -382,6 +383,9 @@ public class CirclePageIndicator extends View implements PageIndicator {
         setViewPager(view);
         setCurrentItem(initialPosition);
     }
+    
+    
+ 
 
     @Override
     public void setCurrentItem(int item) {
