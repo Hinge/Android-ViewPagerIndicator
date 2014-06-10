@@ -15,15 +15,21 @@
 -->
 
 <resources>
-    <bool name="default_circle_indicator_centered">true</bool>
-    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
-    <color name="default_circle_indicator_page_color">#00000000</color>
+    <bool name="default_circle_indicator_centered">false</bool>
+    <color name="default_circle_indicator_fill_color">#FF3e3e3e</color>
+    <color name="default_circle_indicator_page_color">#2e000000</color>
+    
+    <color name="last_circle_indicator_page_color">#ff25acd7</color>
+    
+    <color name="empty_circle_indicator_page_color">#008bdbf4</color>
+    
     <integer name="default_circle_indicator_orientation">0</integer>
-    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_radius">5dp</dimen>
     <bool name="default_circle_indicator_snap">false</bool>
     <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
-    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
-
+    <dimen name="default_circle_indicator_stroke_width">2dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width_narrow">1dp</dimen>
+    <dimen name="empty_circle_indicator_stroke_width">2dp</dimen>
     <dimen name="default_line_indicator_line_width">12dp</dimen>
     <dimen name="default_line_indicator_gap_width">4dp</dimen>
     <dimen name="default_line_indicator_stroke_width">1dp</dimen>

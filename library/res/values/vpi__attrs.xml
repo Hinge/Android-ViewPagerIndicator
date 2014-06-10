@@ -44,6 +44,8 @@
         <!-- Color of the filled circles that represents pages. -->
         <attr name="pageColor" format="color" />
         <!-- Orientation of the indicator. -->
+         <attr name="emptyColor" format="color" />
+        <!-- Orientation of the indicator. -->
         <attr name="android:orientation"/>
         <!-- Radius of the circles. This is also the spacing between circles. -->
         <attr name="radius" format="dimension" />
